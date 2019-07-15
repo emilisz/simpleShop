@@ -8,8 +8,8 @@ Before launching application you need to:
 1.  Download project.
 2.  Rename env.example to .env and change your database values.
     
-    DB_USERNAME=adeo
-    DB_PASSWORD=password
+    DB_USERNAME='adeo'
+    DB_PASSWORD='password'
 
 3.  Run 
 
