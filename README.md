@@ -40,4 +40,3 @@ Before launching application you need to:
 8.  Log in into application with credentials 'adeo' and 'password'
 
 
-### End you are ready to go!
