@@ -11,7 +11,7 @@ Before launching application you need to:
     DB_USERNAME='adeo'
     DB_PASSWORD='password'
 
-3.  Run 
+3.  Go to project folder from terminal and run 
 
 ```
     composer update --no-scripts
