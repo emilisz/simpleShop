@@ -15,7 +15,6 @@ class CreateRatingsTable extends Migration
             $table->timestamps();
             $table->integer('rating');
             $table->morphs('rateable');
-            
             $table->index('rateable_id');
             $table->index('rateable_type');
             

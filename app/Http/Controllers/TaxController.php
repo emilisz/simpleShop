@@ -28,7 +28,6 @@ class TaxController extends Controller
      */
     public function update(Request $request, Tax $tax)
     {
-        // dd($request->all());
         $validated = request()->validate([
             'rate' => '',
             'status' => 'boolean',

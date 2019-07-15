@@ -49,7 +49,7 @@ class ProductController extends Controller
      */
     public function store(Product $product, Request $request)
     {
-        // dd($request->all());
+       
         $validated = request()->validate([
             'sku' => 'required',
             'name' => 'required',

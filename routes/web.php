@@ -27,41 +27,7 @@ Route::post('/rating', function (Request $request) {
 
 
       return response()->json(['success'=>'Rating is successfully added']);
-        // request()->validate([
-        // 'name' => 'required',
-        // 'email' => 'required|email|unique:users',
-        // 'mobile_number' => 'required|unique:users'
-        // ]);
-         
-        // $data = $request->all();
-        // $product = Product::find($request->id);
-
-   //  $rating = new willvincent\Rateable\Rating;
-   //  $rating->rating = $request->rating;
-   //  $rating->user_id = 2;
-
-
-   // $check = $product->ratings()->save($rating);
-   //      // $check = Contact::insert($data);
-   //      $arr = array('msg' => 'Something goes to wrong. Please try again lator', 'status' => false);
-   //      if($check){ 
-   //      $arr = array('msg' => 'Successfully submit form using ajax', 'status' => true);
-   //      }
-   //      return Response()->json($arr);
-
-
-
-    // dd($request->all());
-    // $product = Product::find($request->id);
-
-    // $rating = new willvincent\Rateable\Rating;
-    // $rating->rating = $request->rating;
-    // $rating->user_id = 2;
-
-
-    // $product->ratings()->save($rating);
-
-    // return redirect()->back();
+       
 });
 
 Route::get('/admin', function () {

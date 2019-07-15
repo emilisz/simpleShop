@@ -18,7 +18,7 @@ class ProductsTableSeeder extends Seeder
 
         for ($i = 0; $i < $limit; $i++) {
             DB::table('products')->insert([
-                'sku' => $faker->randomNumber($nbDigits = 6, $strict = false), // 79907610,
+                'sku' => $faker->randomNumber($nbDigits = 6, $strict = false), 
                 'name' => $faker->unique()->name,
                 'description' => $faker->paragraph($nbSentences = 3, $variableNbSentences = true),
                 'price' => $faker->randomFloat($nbMaxDecimals = 2, $min = 0.89, $max = 99),

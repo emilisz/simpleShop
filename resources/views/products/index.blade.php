@@ -28,7 +28,6 @@
 
           <div class="card-body">
             <h5 class="card-title">{{$product->name}} 
-              {{-- {{ $product->price > $product->special_price ? $product->special_price : $product->price }} --}}
               <span class="badge badge-success float-right">
                 @if($product->tax_price > 0)
                 {{$product->tax_price}} 
