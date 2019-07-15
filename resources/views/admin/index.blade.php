@@ -84,7 +84,7 @@
       @if($product->image)
       <td><img width="100" height="100" src="{{url('storage/'.$product->image)}}"></td>
       @else
-     <td><img width="100" height="100" src="{{asset('storage/no_image.png')}}"></td>
+     <td><img width="100" height="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/240px-No_image_available.svg.png"></td>
      @endif
       <td>{{$product->sku}}</td>
       <td>{{$product->name}}</td>

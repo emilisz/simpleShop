@@ -86,7 +86,7 @@
 
                 <div class="links">
                     <a href="{{route('products.index')}}">Go to project</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://github.com/emilisz/simpleShop">GitHub</a>
                 </div>
             </div>
         </div>

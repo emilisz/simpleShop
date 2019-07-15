@@ -104,7 +104,7 @@ class ProductController extends Controller
             'price' => 'required',
             'special_price' => '',
             'status' => 'boolean',
-            'image' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048|dimensions:min_width=100,min_height=100',
+            
         ]);
 
          $product->updateProduct($validated);
@@ -116,8 +116,8 @@ class ProductController extends Controller
             
             $product->saveImage($product,$request);
         }
-       Session::flash('message', "Product updated");
-        return redirect()->back();
+            Session::flash('message', "Product updated");
+            return redirect()->back();
     }
 
     /**

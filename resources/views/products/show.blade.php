@@ -10,7 +10,7 @@
       @if($product->image)
       <img src="{{url('storage/'.$product->image)}}" class="card-img-top img-thumbnail" alt="...">
       @else
-      <img src="{{url('storage/no_image.png')}}" class="card-img-top img-thumbnail" alt="...">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/240px-No_image_available.svg.png" class="card-img-top img-thumbnail" alt="...">
       @endif
     </div>
     <div class="col-lg-8 col-sm-6 col-12 mt-3">

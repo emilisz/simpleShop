@@ -63,7 +63,7 @@
     @if($product->image)
     <img class="img-thumbnail mt-2" width="200" src="{{url('storage/'.$product->image)}}">
     @else
-    <img class="img-thumbnail mt-2" width="200" src="{{url('storage/no_image.png')}}">
+    <img class="img-thumbnail mt-2" width="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/240px-No_image_available.svg.png">
     @endif
   </div>
   <div class="input-group mt-2">

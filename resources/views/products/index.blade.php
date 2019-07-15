@@ -21,7 +21,7 @@
         </a>
       @else
       <a href="{{route('products.show', ['id' => $product->id])}}">
-        <img src="{{asset('storage/no_image.png')}}" class="card-img-top img-thumbnail" alt="...">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/240px-No_image_available.svg.png" class="card-img-top img-thumbnail" alt="...">
       </a>
      
      @endif
