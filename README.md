@@ -8,10 +8,10 @@ Before launching application you need to:
 1.  Download project.
 2.  Rename env.example to .env and change your database values.
     
-    DB_USERNAME=adeo
-    DB_PASSWORD=password
+    DB_USERNAME='adeo'
+    DB_PASSWORD='password'
 
-3.  Run 
+3.  Go to project folder from terminal and run 
 
 ```
     composer update --no-scripts
@@ -37,7 +37,12 @@ Before launching application you need to:
    php artisan storage:link
 ```
 
-8.  Log in into application with credentials 'adeo' and 'password'
+8.  hit
+
+```
+   php artisan serve
+```
+
+9.  Log in into application with credentials 'adeo' and 'password'
 
 
-### End you are ready to go!
