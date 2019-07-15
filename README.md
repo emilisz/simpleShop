@@ -37,6 +37,12 @@ Before launching application you need to:
    php artisan storage:link
 ```
 
-8.  Log in into application with credentials 'adeo' and 'password'
+8.  hit
+
+```
+   php artisan serve
+```
+
+9.  Log in into application with credentials 'adeo' and 'password'
 
 
